@@ -2,7 +2,7 @@
 from app.api.core.settings.db import conn
 
 # Modelo de tabla de usuarios
-from app.api.db.queries.user import users
+from app.api.db.models.user import users
 
 # Esquema de validación de datos de usuario
 from app.api.models.schemas.user import User
